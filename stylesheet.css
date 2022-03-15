@@ -1,0 +1,254 @@
+/*header*/
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'myriad pro regular';
+}
+.top-wrapper{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: RoadTest;
+    color:#201c41;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: relative;
+    top: 0;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    text-align: center;
+    padding: 0 16px 0 16px;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+/*wrapper*/
+.text-container{
+    width : 1100px;
+    padding-left : 15px;
+    padding-right : 15px;
+    margin-left : auto;
+    margin-right : auto;
+}
+.wrapper{
+  text-align: left;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.text-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #38374b;
+    font-size: 22px;
+    text-align: center;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #6463f4;
+    font-size: 60px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #38374b;
+    font-size: 18px;
+    line-height: 30px;
+}
+ 
+.text-container p:nth-child(4){
+    font-family: calibri;
+    color: #38374b;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+ 
+.text-container p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+.text-container button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+ 
+.daftar-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+.daftar-btn:hover {
+    background: goldenrod;
+    text-decoration: none;
+}
+ 
+.kelas-btn{
+    background-color: #6463f4;
+    border: 2px solid #6463f4;
+    color: #ffffff;
+    border: none;
+}
+.kelas-btn:hover {
+    background: green;
+    text-decoration: none;
+}
+ 
+button:active{
+    transform: scale(1.1);
+}
+a.tbl-biru {
+    background: #201c41;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover {
+    background: #6463f4;
+    text-decoration: none;
+}
+
+/*footer*/
+footer p{
+    font-family: calibri;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ 
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:10px;
+}
+ 
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align: center;
+}
+ 
+footer{
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #191919;
+}
+ 
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+ 
+.social-icons{
+    display: flex;
+     
+}
+ 
+.social-icons i,.social i{
+    color:#000000;
+}
+ 
+.social-icons a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.social-icons a:hover i,
+.social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+  
+
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+ 
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+ 
+.social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+}
+ 
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
