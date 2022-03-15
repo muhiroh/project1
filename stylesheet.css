@@ -16,7 +16,7 @@ body{
 }
 .logo a {
     font-size: 50px;
-    font-weight: 800;
+    font-weight: bold;
     float: left;
     font-family: RoadTest;
     color:#201c41;
@@ -74,37 +74,30 @@ section{
 }
 .text-container{
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
     color: #38374b;
-    font-size: 22px;
+    font-size: 40px;
     text-align: center;
 }
 .text-container p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     letter-spacing: 2px;
-    color: #6463f4;
-    font-size: 60px;
+    color: #062C30;
+    font-size: 30px;
+    text-align: center;
 }
+
 .text-container p:nth-child(3){
     font-family: myriad pro regular;
     color: #38374b;
     font-size: 18px;
     line-height: 30px;
 }
- 
-.text-container p:nth-child(4){
-    font-family: calibri;
-    color: #38374b;
-    font-size: 18px;
-    margin-top: 10px;
-    line-height: 30px;
-}
- 
+  
 .text-container p{
     line-height: 0px;
     margin: 55px 0px 25px;
@@ -157,7 +150,73 @@ a.tbl-biru:hover {
     background: #6463f4;
     text-decoration: none;
 }
-
+/*lesson-wrapper*/
+.lesson-wrapper{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.lesson-wrapper h1:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #38374b;
+    font-size: 40px;
+}
+.lesson-wrapper p:nth-child(2){
+    font-family: calibri;
+    color: #38374b;
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.lesson-wrapper p:nth-child(3){
+    font-family: calibri;
+    color: #38374b;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 10px;
+}
+.lesson-wrapper p:nth-child(3):hover{
+    text-decoration: underline;
+}
+ 
+.lesson-wrapper p:nth-child(4){
+    font-family: calibri;
+    color: #38374b;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 10px;
+}
+.lesson-wrapper p:nth-child(4):hover{
+    text-decoration: underline;
+}
+.lesson-wrapper p:nth-child(5){
+    font-family: calibri;
+    color: #38374b;
+    font-size: 22px;
+    margin-top: 10px;
+    line-height: 10px;
+}
+.lesson-wrapper p:nth-child(5):hover{
+    text-decoration: underline;
+}
+ 
+.lesson-wrapper p{
+    line-height: 0px;
+    margin: 55px 0px 25px;
+}
+a.tbl-yellow {
+    background: #F0A500;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-yellow:hover {
+    background: #6463f4;
+    text-decoration: none;
+}
 /*footer*/
 footer p{
     font-family: calibri;
